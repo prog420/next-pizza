@@ -85,7 +85,7 @@ export default function Home() {
                 },
                 {
                   id: 2,
-                  name: "2 пиццы и закуса",
+                  name: "2 пиццы и закуска",
                   imageUrl: "https://media.dodostatic.net/image/r:584x584/11EED73DF32FBAEBACC9B5B95EF7140E.avif",
                   price: 800,
                   items: [{price: 800}]
