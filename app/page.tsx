@@ -26,7 +26,8 @@ export default function Home() {
         <div className="flex-1">
           <div className="flex flex-col gap-16">
             <ProductsGroupList 
-              title="Пиццы" 
+              title="Пиццы"
+              categoryId={1}
               products={[
                 {
                   id: 1,
@@ -43,38 +44,38 @@ export default function Home() {
                   items: [{price: 550}]
                 },
                 {
-                  id: 1,
+                  id: 3,
                   name: "Чизбургер-пицца",
                   imageUrl: "https://media.dodostatic.net/image/r:584x584/11EED73C6B01E9ECAB89410716435740.avif",
                   price: 500,
                   items: [{price: 500}]
                 },
                 {
-                  id: 2,
+                  id: 4,
                   name: "Пепперони фреш",
                   imageUrl: "https://media.dodostatic.net/image/r:584x584/11EEE204813D7DDB85018555332A9F46.avif",
                   price: 550,
                   items: [{price: 550}]
                 },
                 {
-                  id: 1,
+                  id: 5,
                   name: "Чизбургер-пицца",
                   imageUrl: "https://media.dodostatic.net/image/r:584x584/11EED73C6B01E9ECAB89410716435740.avif",
                   price: 500,
                   items: [{price: 500}]
                 },
                 {
-                  id: 2,
+                  id: 6,
                   name: "Пепперони фреш",
                   imageUrl: "https://media.dodostatic.net/image/r:584x584/11EEE204813D7DDB85018555332A9F46.avif",
                   price: 550,
                   items: [{price: 550}]
                 },
-              ]} 
-              categoryId={1}
+              ]}
             />
             <ProductsGroupList 
-              title="Комбо" 
+              title="Комбо"
+              categoryId={2}
               products={[
                 {
                   id: 1,
@@ -97,8 +98,7 @@ export default function Home() {
                   price: 900,
                   items: [{price: 900}]
                 },
-              ]} 
-              categoryId={2}
+              ]}
             />
           </div>
         </div>
