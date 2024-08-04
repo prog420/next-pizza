@@ -21,7 +21,7 @@ export const Filters: React.FC<Props> = ({ className }) => {
 
             {/** Filter by price */}
             <div className="mt-5 border-y border-y-neutral-100 py-6 pb-7">
-                <p className="font-bold mb-3">Цена от и до</p>
+                <p className="font-bold mb-3">Цена от и до:</p>
                 <div className="flex gap-3 mb-5">
                     <Input type="number" placeholder="0" min={0} max={2000} defaultValue={0} />
                     <Input type="number" min={100} max={2000} defaultValue={1000} placeholder="1000" />
